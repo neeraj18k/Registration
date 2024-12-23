@@ -103,9 +103,11 @@
             const userData = { name, email, phone, dob, gender, message };
             localStorage.setItem('userData', JSON.stringify(userData));
 
-            // Redirect to display page
+            // Provide feedback and redirect
+            alert('Registration successful!');
             window.location.href = "display.html";
         }
     </script>
 </body>
 </html>
+
